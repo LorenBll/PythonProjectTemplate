@@ -1,5 +1,5 @@
 @echo off
-echo Starting PythonProjectTemaplate Application...
+echo Starting PythonProjectTemplate Application...
 echo.
 
 :: Check if virtual environment exists
