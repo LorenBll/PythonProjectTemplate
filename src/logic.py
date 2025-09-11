@@ -25,8 +25,6 @@ class Logic(threading.Thread):
         self.__storage.start()
         
         # TODO : initialisation code here
-        
-        pass
     
     
     
