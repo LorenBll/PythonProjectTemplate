@@ -42,7 +42,14 @@ class Logic(threading.Thread):
                 self.__storage = storage.Storage()
                 self.__storage.start()
             time.sleep(15)
+    
+    def exit(self) -> None:
+        """Exit the logic layer."""
         
+        self.__storage.exit()
+        
+        # TODO : cleanup code here
+    
     # TODO : add logic working methods here (all methods that compose the functioning of the application)
          
 
