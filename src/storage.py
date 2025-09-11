@@ -36,6 +36,13 @@ class Storage(threading.Thread):
                 pass
             time.sleep(15)
 
+    def exit(self) -> None:
+        """Exit the storage layer."""
+        
+        # TODO : add cleanup code here
+        
+        pass
+
     def isDataAccessible(self) -> bool:
         """Check if the data is accessible."""
         # TODO : add code to check data accessibility here
