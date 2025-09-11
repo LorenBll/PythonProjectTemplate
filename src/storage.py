@@ -19,8 +19,6 @@ class Storage(threading.Thread):
         super().__init__()
         
         # TODO : initialisation code here
-        
-        pass
     
 
 
