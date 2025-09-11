@@ -1,4 +1,8 @@
 import threading
+import termcolor
+import time
+import os
+import sys
 import logic
 # TODO : add module imports here
 
@@ -36,9 +40,14 @@ class Experience(threading.Thread):
         # TODO : experience layer running code here
         
         pass
-    
+
+    def exit(self) -> None:
+        """Exit the experience layer."""
+        
+        self.__logic.exit()        
+        sys.exit(0)
+
     # TODO : add experience layer working methods here (all methods that compose the functioning of the experience layer)
-    
 
 def main() -> None:
     experience = Experience()
