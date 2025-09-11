@@ -27,8 +27,6 @@ class Experience(threading.Thread):
         self.__logic.start()
 
         # TODO : initialisation code here
-        
-        pass
     
     
     
