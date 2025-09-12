@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Setting up PythonProjectTemplate Application..."
+echo "Setting up ProjectName Application..."
 echo
 
 # Check if Python is installed
